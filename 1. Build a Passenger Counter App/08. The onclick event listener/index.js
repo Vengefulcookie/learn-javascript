@@ -12,6 +12,7 @@
 let count = 0;
 
 function increment() {
-  document.getElementById("count-el").innerText = count + 1
+  let incrementCount = document.getElementById("count-el").innerText;
+  incrementCount = count + 1;
 }
-
+document.getElementById("increment-btn").addEventListener("click", increment);
