@@ -12,6 +12,6 @@
 let count = 0;
 
 function increment() {
-  document.getElementById("").innerText = (count = count + 1)
+  document.getElementById("increment-btn").innerText = count + 1
 }
 
