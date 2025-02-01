@@ -9,6 +9,14 @@
 // increment the count variable when the button is clicked
 // change the count-el in the HTML to reflect the new count
 
+let count = 0
+
+function incrementCount() {
+  let countElement = document.getElementById("count-el")
+    countElement.innerHTML = count
+  count = count + 1
+}
+
 
 
 
