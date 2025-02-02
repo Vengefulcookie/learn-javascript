@@ -9,4 +9,4 @@ welcomeEl.innerText = greeting + name
 // WRITE YOUR CODE BELOW HERE
 // HINT: count = count + 1
 let emoji = "👋"
-welcomeEl.innerText = greeting + name + emoji
+welcomeEl.innerText = welcomeEl.innerText + emoji // or you can write it like this welcomeEl.innerText += emoji
