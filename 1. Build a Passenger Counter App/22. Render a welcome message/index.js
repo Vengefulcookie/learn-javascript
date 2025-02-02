@@ -6,3 +6,6 @@
 // Render the welcome message using welcomeEl.innerText
 
 let welcomeEl = document.getElementById("welcome-el")
+let name = "Sne"
+let greeting = "Welcome Back "
+welcomeEl.innerText = greeting + name
