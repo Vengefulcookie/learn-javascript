@@ -14,15 +14,15 @@ function add() {
 }
 
 function subtract() {
-  sum.textContent -= num1 + num2
+  sum.textContent += num1 - num2
 }
 
 function divide() {
-  sum.textContent /= num1 + num2
+  sum.textContent += num1 / num2
 }
 
 function multiply() {
-  sum.textContent *= num1 + num2
+  sum.textContent += num1 * num2
 }
 
 // E.g. if the user clicks on the "Plus" button, you should render
