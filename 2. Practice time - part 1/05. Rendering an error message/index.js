@@ -2,7 +2,8 @@
 // "Something went wrong, please try again" in the paragraph
 // that has the id="error".
 
-let 
+let purchaseButton = document.getElementById("purchase")
+
 function purchaseShoes() {
 
 }
